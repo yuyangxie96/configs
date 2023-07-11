@@ -1,6 +1,10 @@
 set term=screen-256color
 set mouse=a
 
+if has("autocmd")  
+ au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif  
+endif
+
 " 自动安装 vim-plug
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --insecure --create-dirs
