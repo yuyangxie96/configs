@@ -1,10 +1,9 @@
 #!/bin/sh
 
-cp ./.aliases ~
 cp ./.inputrc ~
 cp ./.tmux.conf ~
 cp ./.vimrc ~
 cp ./.zshrc ~
-cp ./.environment ~
+cp ./.environment.zsh ~
 cp ./compile_flags.txt ~
 
