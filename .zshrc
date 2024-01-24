@@ -111,7 +111,7 @@ zt light-mode for \
         agkozak/zsh-z \
     as'null' atload'export CCLS_INIT_CONFIG=$(pwd)/ccls-config;
                     alias ccls-init='\''cp $CCLS_INIT_CONFIG .ccls'\''' \
-        'https://github.com/lljbash/configs/blob/master/ccls-config'
+        'https://github.com/yuyangxie96/configs/tree/master/ccls-config'
 
 ### Aliases
 zt aliases light-mode for \
@@ -122,7 +122,7 @@ zt aliases light-mode for \
         OMZP::rsync/rsync.plugin.zsh \
     blockf \
         OMZP::ubuntu/ubuntu.plugin.zsh \
-        'https://github.com/lljbash/configs/blob/master/my_aliases.zsh'
+        'https://github.com/yuyangxie96/configs/tree/master/my_aliases.zsh'
 
 ### Binaries
 zinit light zdharma-continuum/zinit-annex-bin-gem-node
