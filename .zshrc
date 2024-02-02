@@ -58,7 +58,7 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 ### Trigger-load
 zinit light-mode for \
-    trigger-load'!x' svn \
+    trigger-load'!x' \
         OMZP::extract \
     trigger-load'!man' \
         ael-code/zsh-colored-man-pages \
