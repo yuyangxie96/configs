@@ -200,3 +200,5 @@ zt as"null" light-mode for \
         zdharma-continuum/null
 
 #### PLUGIN  END  ####
+
+bindkey '^b' beginning-of-line
