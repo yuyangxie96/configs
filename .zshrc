@@ -202,3 +202,13 @@ zt as"null" light-mode for \
 #### PLUGIN  END  ####
 
 bindkey '^b' beginning-of-line
+
+export HF_HOME="/workspace/yuyang/.cache/huggingface/"
+export HF_DATASETS_CACHE="/workspace/yuyang/.cache/huggingface/datasets/"
+#export HUGGINGFACE_HUB_CACHE="/workspace/yuyang/.cache/huggingface/hub/"
+#export HF_HUB_CACHE="/workspace/yuyang/.cache/huggingface/hub/"
+
+export HF_ENDPOINT="https://hf-mirror.com"
+
+
+
