@@ -6,7 +6,7 @@ cp ./.tmux.conf ~
 cp ./.vimrc ~
 cp ./.zshrc ~
 cp ./.zshenv ~
-cp ./.zsh.antigen ~
+cp ./.zshrc.antigen ~
 cp ./.environment.zsh ~
 cp ./ccls-config ~
 cp ./my_aliases.zsh ~
