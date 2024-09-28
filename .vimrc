@@ -24,7 +24,7 @@ Plug 'vim-scripts/phd'
 Plug 'tpope/vim-sensible'
 
 " 状态栏
-Plug 'Lokaltog/vim-powerline', {'branch': 'develop'}
+Plug 'powerline/powerline', {'branch': 'develop'}
 
 " C++ 语法高亮
 Plug 'octol/vim-cpp-enhanced-highlight'
